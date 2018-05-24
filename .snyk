@@ -1,0 +1,11 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - azure > azure-mgmt-website > azure-common > request > hawk:
+        patched: '2018-05-24T01:36:41.275Z'
+  'npm:request:20160119':
+    - azure > azure-mgmt-website > azure-common > request:
+        patched: '2018-05-24T01:36:41.275Z'
