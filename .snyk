@@ -1,0 +1,24 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:http-signature:20150122':
+    - azure > azure-common > request > http-signature:
+        patched: '2018-07-02T22:11:25.398Z'
+    - azure > request > http-signature:
+        patched: '2018-07-02T22:11:25.398Z'
+    - azure > azure-mgmt-storage > azure-common > request > http-signature:
+        patched: '2018-07-02T22:11:25.398Z'
+    - azure > azure-mgmt-vnet > azure-common > request > http-signature:
+        patched: '2018-07-02T22:11:25.398Z'
+    - azure > azure-mgmt-sb > azure-common > request > http-signature:
+        patched: '2018-07-02T22:11:25.398Z'
+    - azure > azure-mgmt > azure-common > request > http-signature:
+        patched: '2018-07-02T22:11:25.398Z'
+    - azure > azure-mgmt-compute > azure-common > request > http-signature:
+        patched: '2018-07-02T22:11:25.398Z'
+    - azure > azure-mgmt-sql > azure-common > request > http-signature:
+        patched: '2018-07-02T22:11:25.398Z'
+    - azure > azure-mgmt-website > azure-common > request > http-signature:
+        patched: '2018-07-02T22:11:25.398Z'
