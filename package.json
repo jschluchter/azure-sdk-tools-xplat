@@ -35,22 +35,23 @@
     }
   ],
   "dependencies": {
-    "azure" : "0.8.1",
+    "azure": "0.10.5",
     "xml2js": "0.1.x",
     "xmlbuilder": "0.4.x",
     "underscore": "1.4.x",
-    "node-uuid": "1.2.0",
+    "node-uuid": "1.4.6",
     "tunnel": "0.0.2",
     "async": "0.2.7",
     "streamline": "0.4.5",
     "commander": "1.0.4",
-    "winston": "0.6.x",
+    "winston": "0.8.0",
     "colors": "0.x.x",
     "eyes": "0.x.x",
     "easy-table": "0.0.1",
     "github": "0.1.6",
     "omelette": "0.1.0",
-    "kuduscript": "0.1.7"
+    "kuduscript": "0.1.7",
+    "snyk": "^1.149.0"
   },
   "devDependencies": {
     "mocha": "1.16.0",
@@ -79,9 +80,12 @@
     "preacceptance": "node scripts/cuke-environment.js setup",
     "acceptance": "node node_modules/cucumber/bin/cucumber.js",
     "postacceptance": "node scripts/cuke-environment.js teardown",
-    "extract-labels": "node scripts/extract-labels"
+    "extract-labels": "node scripts/extract-labels",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "bin": {
     "azure": "./bin/azure"
-  }
+  },
+  "snyk": true
 }

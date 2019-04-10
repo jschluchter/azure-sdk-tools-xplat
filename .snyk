@@ -1,0 +1,101 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - azure > request > hawk:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-common > request > hawk:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-compute > azure-common > request > hawk:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-sb > azure-common > request > hawk:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-sql > azure-common > request > hawk:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-storage > azure-common > request > hawk:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-vnet > azure-common > request > hawk:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-website > azure-common > request > hawk:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt > azure-common > request > hawk:
+        patched: '2019-04-10T07:50:00.814Z'
+  'npm:http-signature:20150122':
+    - azure > request > http-signature:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt > azure-common > request > http-signature:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-compute > azure-common > request > http-signature:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-sb > azure-common > request > http-signature:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-sql > azure-common > request > http-signature:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-storage > azure-common > request > http-signature:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-vnet > azure-common > request > http-signature:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-website > azure-common > request > http-signature:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-common > request > http-signature:
+        patched: '2019-04-10T07:50:00.814Z'
+  'npm:mime:20170907':
+    - azure > mime:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > request > mime:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-common > request > mime:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > request > form-data > mime:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-website > azure-common > request > mime:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-vnet > azure-common > request > mime:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-storage > azure-common > request > mime:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-common > request > form-data > mime:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt > azure-common > request > mime:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-sql > azure-common > request > mime:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-compute > azure-common > request > mime:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-sb > azure-common > request > mime:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-compute > azure-common > request > form-data > mime:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-website > azure-common > request > form-data > mime:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-vnet > azure-common > request > form-data > mime:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-storage > azure-common > request > form-data > mime:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-sql > azure-common > request > form-data > mime:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-sb > azure-common > request > form-data > mime:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt > azure-common > request > form-data > mime:
+        patched: '2019-04-10T07:50:00.814Z'
+  'npm:request:20160119':
+    - azure > request:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-common > request:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt > azure-common > request:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-compute > azure-common > request:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-sb > azure-common > request:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-sql > azure-common > request:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-storage > azure-common > request:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-vnet > azure-common > request:
+        patched: '2019-04-10T07:50:00.814Z'
+    - azure > azure-mgmt-website > azure-common > request:
+        patched: '2019-04-10T07:50:00.814Z'
